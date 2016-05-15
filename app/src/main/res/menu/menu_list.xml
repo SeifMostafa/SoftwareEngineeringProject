@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.seifmostafa.checktasty.listActivity">
+    <item
+        android:id="@+id/action_friends"
+        android:orderInCategory="1"
+        android:icon="@android:drawable/sym_def_app_icon"
+        android:title="friends"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_places"
+        android:orderInCategory="2"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="places"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_messages"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="messaging"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_Notifications"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_lock_idle_low_battery"
+        android:title="notfications"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_upgrade"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/sym_def_app_icon"
+        android:title="Upgrade Account"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_verifycard"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Verify Credit Card"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Tastes"
+        android:orderInCategory="60"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Tastes"
+        app:showAsAction="never" />
+</menu>

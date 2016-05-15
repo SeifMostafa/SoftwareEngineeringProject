@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.seifmostafa.checktasty.Upgrade">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText_creditcardpassword"
+        android:hint="Your credit password"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText_creditcardnumber"
+        android:layout_above="@+id/editText_creditcardpassword"
+        android:layout_alignLeft="@+id/editText_creditcardpassword"
+        android:layout_alignStart="@+id/editText_creditcardpassword"
+        android:layout_marginBottom="64dp"
+        android:hint="Your Credit Number" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upgrade"
+        android:id="@+id/button_upgrade"
+        android:layout_marginTop="71dp"
+        android:layout_below="@+id/editText_creditcardpassword"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
